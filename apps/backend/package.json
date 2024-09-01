@@ -1,5 +1,5 @@
 {
-  "name": "@career-canvas/backend",
+  "name": "@careeraft/backend",
   "version": "1.0.0",
   "description": "",
   "main": "src/index.ts",
@@ -17,10 +17,10 @@
     "express": "^4.19.2",
     "ts-node": "^10.9.2",
     "typescript": "^5.5.4",
-    "@career-canvas/database": "workspace:*"
+    "@careeraft/database": "workspace:*"
   },
   "devDependencies": {
-    "@career-canvas/typescript-config": "workspace:*",
+    "@careeraft/typescript-config": "workspace:*",
     "@types/cors": "^2.8.17",
     "@types/express": "^4.17.21",
     "nodemon": "^3.1.4"

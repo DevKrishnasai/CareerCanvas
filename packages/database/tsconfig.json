@@ -1,5 +1,5 @@
 {
-  "extends": "@career-canvas/typescript-config/base.json",
+  "extends": "@careeraft/typescript-config/base.json",
   "compilerOptions": {
     "outDir": "./dist"
   },

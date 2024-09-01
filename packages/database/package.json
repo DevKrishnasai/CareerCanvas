@@ -1,5 +1,5 @@
 {
-  "name": "@career-canvas/database",
+  "name": "@careeraft/database",
   "version": "1.0.0",
   "description": "",
   "main": "index.ts",
@@ -21,6 +21,6 @@
     "@prisma/client": "^5.19.0",
     "ts-node": "^10.9.2",
     "typescript": "^5.5.4",
-    "@career-canvas/typescript-config": "workspace:*"
+    "@careeraft/typescript-config": "workspace:*"
   }
 }

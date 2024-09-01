@@ -1,7 +1,7 @@
 import express from "express";
 import dotenv from "dotenv";
 import { db } from "./utils/db";
-import { User } from "@career-canvas/database";
+import { User } from "@careeraft/database";
 
 dotenv.config();
 
