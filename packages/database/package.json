@@ -1,0 +1,26 @@
+{
+  "name": "@career-canvas/database",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "all": "prisma db push && ts-node scripts/index.ts",
+    "migrate": "prisma migrate dev",
+    "generate": "prisma generate",
+    "push": "prisma db push",
+    "reset": "prisma db push --force-reset",
+    "up": "docker compose up -d"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "prisma": "^5.19.0"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.19.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4",
+    "@career-canvas/typescript-config": "workspace:*"
+  }
+}

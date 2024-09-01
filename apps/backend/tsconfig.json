@@ -1,0 +1,7 @@
+{
+  "extends": "@career-canvas/typescript-config/base.json",
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "rootDir": "./src"
+  }
+}

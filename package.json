@@ -2,10 +2,19 @@
   "name": "CareerCanvas",
   "private": true,
   "scripts": {
-    "build": "turbo build",
+    "---------- start redis server and db server - step-1 ---------": "",
+    "docker:up": "docker run -d --name redis-server -p 6379:6379 -p 8001:8001 redis/redis-stack:latest  &&  turbo run up",
+    "---------- setup of database and data - step-2 ---------": "",
+    "db:all": "pnpm --filter @career-canvas/database all",
+    "----------  run all services - step-3 ---------": "",
     "dev": "turbo dev",
+    "build": "turbo build",
     "lint": "turbo lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "db:push": "pnpm --filter @career-canvas/database push",
+    "db:migrate": "pnpm --filter @career-canvas/database migrate",
+    "db:reset": "pnpm --filter @career-canvas/database reset",
+    "ui:add": "pnpm --filter @career-canvas/frontend ui:add"
   },
   "devDependencies": {
     "prettier": "^3.2.5",
