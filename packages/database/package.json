@@ -5,10 +5,13 @@
   "main": "index.ts",
   "scripts": {
     "all": "prisma db push && ts-node scripts/index.ts",
+    "dev": "prisma studio",
     "migrate": "prisma migrate dev",
     "generate": "prisma generate",
     "push": "prisma db push",
     "reset": "prisma db push --force-reset",
+    "studio": "prisma studio",
+    "down": "docker compose down",
     "up": "docker compose up -d"
   },
   "keywords": [],

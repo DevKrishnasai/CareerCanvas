@@ -1,5 +1,5 @@
 {
-  "name": "CareerCanvas",
+  "name": "careeraft",
   "private": true,
   "scripts": {
     "---------- start redis server and db server - step-1 ---------": "",
@@ -14,7 +14,9 @@
     "db:push": "pnpm --filter @careeraft/database push",
     "db:migrate": "pnpm --filter @careeraft/database migrate",
     "db:reset": "pnpm --filter @careeraft/database reset",
-    "ui:add": "pnpm --filter @careeraft/frontend ui:add"
+    "ui:add": "pnpm --filter @careeraft/frontend ui:add",
+    "studio": "pnpm --filter @careeraft/database studio",
+    "frontend": "pnpm --filter @careeraft/frontend dev"
   },
   "devDependencies": {
     "prettier": "^3.2.5",

@@ -1,0 +1,7 @@
+{
+  "extends": "@careeraft/typescript-config/base.json",
+  "compilerOptions": {
+    "outDir": "dist",
+    "rootDir": "."
+  }
+}
