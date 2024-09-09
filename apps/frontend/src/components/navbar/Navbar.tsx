@@ -5,6 +5,7 @@ import { usePathname } from "next/navigation";
 import Image from "next/image";
 import { Button } from "../ui/button";
 import { ToggleLeft } from "lucide-react";
+import { ThemeSwitch } from "../Theme/ThemeSwitch";
 
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -59,7 +60,7 @@ const Navbar = () => {
 
           {/* Sign In Button */}
           <div className="hidden md:flex items-center space-x-4">
-            <ToggleLeft />
+            <ThemeSwitch />
             <Link
               href="/sign-in"
               className="text-white font-medium rounded-full w-[130px] bg-blue-500 hover:bg-blue-400 p-3 text-center"
